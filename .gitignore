@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node modules (Backend and Frontend)
+**/node_modules
+
+# Compiled files from TypeScript (Backend and Frontend)
+**/dist
+**/build
+
+# dotenv environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Firebase files (for backend)
+serviceAccountKey.json
+
+# Coverage directory used by testing tools like jest
+coverage
+**/coverage
+
+# Firebase cache files
+.firebaserc
+firebase-debug.log
+firebase-debug.*.log
+
+# Ignore Docker related files
+docker-compose.override.yml
+.dockerignore
+
+# Ignore Yarn.lock files in case you use NPM instead
+.pnpm-lock.yaml
+*.tsbuildinfo
+
+# MacOS specific
+.DS_Store
+
+# Ignore Visual Studio Code specific files
+.vscode/
+
+# Ignore temporary files
+*.swp
+*.swo
